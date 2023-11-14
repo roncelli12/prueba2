@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Grid bootstrap</title>
+</head>
+<body>
+    <header>
+        <h1 class="tituar estiloPropio">Probando Grillas de Bootstrap</h1>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h2>Columna 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eum iste in rem alias. Id quis quae perferendis magnam voluptate.</p>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12">
+                <h2>Columna 2</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eum iste in rem alias. Id quis quae perferendis magnam voluptate.</p>
+            </div>
+            <div class="col-lg-4 col-sm-12 col-xs-12">
+                <h2>Columna 1</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur eum iste in rem alias. Id quis quae perferendis magnam voluptate.</p>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/3.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/4.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/5.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+
+
+        <section>
+            <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Mas Info.
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nombre del Producto</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h2>Hola</h2>
+          <img class="mp" src="./img/logomp.png" alt="">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus inventore nemo magni dignissimos consequatur facere laudantium at rerum corrupti dolorum?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+        </section>
+
+
+    </main>
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

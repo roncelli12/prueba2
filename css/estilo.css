@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(245, 219, 181);
+}
+
+
+.estiloPropio{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(88, 54, 10);
+    text-align: center;
+}
+
+
+.tabla{ 
+    width: 500px;
+    margin: 10px auto;
+}
+
+.radius{
+    border: solid rgb(88, 54, 10) 4px;
+}
+
+.formulario{
+    width: 500px;
+    margin: 20px auto;
+    border: solid rgb(88, 54, 10) 4px;
+    padding: 1rem;
+}
+
+.botonDropdown{
+    text-align: center;
+    margin: 20px auto;
+}
+
+.logo{
+    width: 50px;
+}
+
+.colorPropio{
+    background-color: rgb(223, 183, 124);
+}
+
+.mp{
+    width: 100px;
+}
+
+.acordeon{
+    width: 700px;
+    margin: 20px auto;
+}
