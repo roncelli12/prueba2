@@ -6,7 +6,7 @@
 
 
 body{
-    background-color: rgb(245, 219, 181);
+    background-color: rgb(245, 181, 226);
 }
 
 
@@ -23,13 +23,13 @@ body{
 }
 
 .radius{
-    border: solid rgb(88, 54, 10) 4px;
+    border: solid rgb(23, 221, 221) 4px;
 }
 
 .formulario{
     width: 500px;
     margin: 20px auto;
-    border: solid rgb(88, 54, 10) 4px;
+    border: solid rgb(23, 221, 221) 4px;
     padding: 1rem;
 }
 
